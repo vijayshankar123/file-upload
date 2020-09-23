@@ -1,0 +1,23 @@
+.SidebarFiles {
+  display: flex;
+  padding: 20px;
+  margin-left: 10px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SidebarFiles:hover {
+  background-color: #ebebeb;
+  transition: 200ms ease-in;
+  transform: scale(1.05);
+}
+.sidebarFiles_info {
+  margin-left: 15px;
+}
+
+.sidebarFiles_info > a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
